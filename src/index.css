@@ -1,0 +1,47 @@
+:root{
+  --color-red: #e4000f;
+  --color-white: 	#FFF5EE;
+  --header-font:'Roboto', sans-serif;
+
+}
+
+
+
+
+/* Reset para todos los elementos */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: var(--header-font);
+
+
+}
+h1,h2,h3,h4, ul, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+a{
+  font-family: inherit;
+  text-decoration: none;
+}
+
+input{
+  outline: none;
+}
+button{
+  border: none;
+}

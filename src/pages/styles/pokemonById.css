@@ -1,0 +1,120 @@
+.id__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.id__header-number{
+  font-size: 25px;
+  text-shadow:-2px -2px 1px #00000075;
+
+}
+.id__header-name{
+  font-size: 35px;
+  text-transform: capitalize  ;
+  text-shadow:-2px -2px 1px #00000075;
+
+} 
+
+.id__image-container {
+  background-color: white;
+  width: 70%;
+  max-width: 350px;
+  /* display: grid; */
+  border-radius: 50%;
+}
+.id__stats{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 42px;
+  /* margin: 1px; */
+  /* box-shadow: 1px 1px 1px 1px black; */
+  padding: 6px;
+}
+
+.id__stats-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 17px 5px;
+  /* justify-items: center; */
+  padding: 0;
+  width: 182px;
+  max-width: 250px;
+  border: 1px solid black;
+  /* align-items: center; */
+  justify-content: center;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.id__stats-list{
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.id__stats-li{
+  list-style: none;
+}
+.id__stats-label{
+  font-weight: bold;
+}
+.id__stats-holder{
+  border: 1px solid black;
+  width: 174px;
+  height: 208px;
+  max-width: 600px;
+  /* gap: 7px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.id_stats_types-tittle{
+  text-align: center;
+  margin-bottom: 11px;
+}
+.id__stats-types-ul{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 22px;
+}
+.id__stats-types-li{
+  text-align: center;
+  list-style: none;
+  border-radius: 3px;
+}
+.id__movements {
+  background: #ffffff;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.id__movements-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+}
+
+.id__movements-list {
+  margin: 3px;
+  border-radius: 35px;
+  height: fit-content;
+  max-height: 51px;
+  gap: 1px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #7e7a7a;
+  max-width: 119px;
+}
+.id__movements-item {
+  font-size: 13px;
+  text-shadow: 0.4px 0.6px 0.3px #00000075;
+}
