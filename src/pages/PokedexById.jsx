@@ -52,7 +52,7 @@ const PokedexByID = () => {
           <h3 className="id_stats_types-tittle">Type</h3>
         <div className='id__stats-types-ul'>
               <li className={`id__stats-types-li bg-${pokemonid?.types[0].type.name} `}>{pokemonid?.types[0].type.name}</li>
-              <li className={`id__stats-types-li bg-${pokemonid?.types[1].type.name} `}>{pokemonid?.types[1].type.name}</li> 
+              
         </div>
         </div>
         <div className="id__stats-skills">
